@@ -21,11 +21,16 @@ body {
 
 .app-container {
   margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .room {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .room label {
@@ -60,4 +65,19 @@ body {
 
 .sign-out {
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-out button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: #f10d0d;
+    color: white;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
 }
